@@ -38,7 +38,7 @@ export default function Home() {
               leaderboard.length != 0 ? (
                 leaderboard.map((address, idx) => {
                   return (
-                    <div className="font-semibold text-xl">{idx + 1}: {address}</div>)
+                    <div className="font-semibold text-xl" key={idx}>{idx + 1}: {address}</div>)
                 })
               ) : <div className="font-medium text-xl">Play now to get on leaderboard.</div>
             }
