@@ -9,9 +9,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-    images: {
-    loader: 'akamai',
-    path: '',
-  },
-  trailingSlash: true,
 }
